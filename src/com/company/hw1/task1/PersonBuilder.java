@@ -1,7 +1,7 @@
 package com.company.hw1.task1;
 
 public class PersonBuilder {
-    Person person = new Person();
+    private Person person = new Person();
 
     public PersonBuilder setFirstName(String firstName) {
         person.setFirstName(firstName);
